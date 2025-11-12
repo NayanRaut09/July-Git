@@ -5,25 +5,17 @@ public class HashMapDemo {
     public static void main(String[] args) {
 
         HashMap<Integer, String> map = new HashMap<>();
-
         map.put(20, "Nayan");
         map.put(40, "Rohan");
         map.put(10, "Rohit");
         map.put(50, "Sahil");
         map.put(70, "Vipul");
 
-        System.out.println("Without sorting>>" +map);
-
-         //sort the hashmap based on keys
+        System.out.println("Without sorting>>" + map);
 
         TreeMap<Integer, String> treeMap = new TreeMap<>(map);
 
-        System.out.println("After sorting>>" +treeMap);
-
-
-
-
-
+        System.out.println("After sorting>>" + treeMap);
 
     }
 }
